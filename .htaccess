@@ -1,0 +1,45 @@
+RewriteEngine On
+
+# RewriteCond: Check if the requested filename is not a real file (-f)
+RewriteCond %{REQUEST_FILENAME} !-f
+
+# RewriteRule: If the above condition is met, rewrite the URL
+# ^([^\.]+)$ captures a sequence of characters that are not dots
+# $1.html rewrites the URL to add .html extension
+# [NC,L,R=301] flags: NC - case-insensitive, L - last rule, R=301 - permanent redirect
+RewriteRule ^([^\.]+)$ $1.html [NC,L,R=301]
+
+# Remove trailing slash after "music"
+RewriteRule ^music/$ /music [R=301,L]
+
+# Remove trailing slash after "blog"
+RewriteRule ^blog/$ /blog [R=301,L]
+
+# Remove trailing slash after "shop"
+RewriteRule ^shop/$ /shop [R=301,L]
+
+# Remove trailing slash after "contact"
+RewriteRule ^contact/$ /contact [R=301,L]
+
+
+<IfModule mod_deflate.c>
+    AddOutputFilterByType DEFLATE text/html text/plain text/xml application/javascript application/x-javascript application/json text/css application/xml application/rss+xml
+</IfModule>
+
+
+gzip on;
+gzip_types text/html text/plain text/xml application/javascript application/x-javascript application/json text/css application/xml application/rss+xml;
+
+
+RewriteEngine On
+RewriteCond %{HTTP_HOST} ^static\.swendl\.com$ [NC]
+RewriteRule ^(.*)$ https://www.swendl.com/static/$1 [L,QSA]
+
+server {
+    server_name static.swendl.com;
+    location / {
+        proxy_pass https://www.swendl.com/static;
+        # Other proxy settings if needed
+    }
+}
+
