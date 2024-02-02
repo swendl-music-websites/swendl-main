@@ -27,3 +27,4 @@ portfolioDataToShow4.slice(0, itemsToShow).forEach(item => {
         `;
     portfolioContainer_4.insertAdjacentHTML("beforeend", itemHTML);
 });
+

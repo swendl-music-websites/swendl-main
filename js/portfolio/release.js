@@ -1,5 +1,13 @@
 const portfolioData = [
     {
+        title: "Promise",
+        date: "2024",
+        artist: "Swendl",
+        link: "https://ffm.to/67lexvk",
+        imageSrc: "/images/music-cover/promise.webp",
+        imageAlt: "Swendl - Promise"
+    },
+    {
         title: "Speed Of Light",
         date: "2024",
         artist: "Matvey Emerson X Able Faces (Swendl Remix)",

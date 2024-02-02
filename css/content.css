@@ -114,7 +114,7 @@
 	
 	.hero-title {
 		font-size: calc(1rem + 5.15vw);
-		line-height: calc(1rem + 5.5vw);
+		line-height: max(1rem, calc(1rem + 5.5vw));
 		font-weight:500;
 		position: relative;
 		display:block;
@@ -124,8 +124,9 @@
 		overflow:hidden;
 		padding: 0;
 		margin-bottom:0;
-		color:#000;		
+		color:#0c0c0c;		
 	}
+	
 	
 	.hero-title-wrapper {
 		margin-left:-0.3vw;		
@@ -295,10 +296,7 @@
 		transform: rotate(45deg) scale(0.5);
 	}
 	
-	
-	
-	
-	
+
 	#hero-footer {
 		position: absolute;
 		width: 100%;

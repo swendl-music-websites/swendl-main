@@ -2920,7 +2920,7 @@
 		position:absolute;
 		height:30%;
 		width:100%;
-		bottom:0;
+		bottom:-20px;
 		opacity:0;
 		background-color:#000;
 		z-index:10;

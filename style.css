@@ -1790,6 +1790,34 @@ scale-up .link,
     background: rgba(255, 255, 255, 1);
 }
 
+
+
+.preloader-wrap.custom-preloader {
+    background: #524366;
+}
+
+.preloader-wrap.custom-preloader .outer {
+    padding: 0;
+}
+
+.preloader-wrap.custom-preloader .percentage-wrapper {
+    background-color: #524366;
+}
+
+.preloader-wrap.custom-preloader .percentage,
+.preloader-wrap.custom-preloader .percentage-intro,
+.preloader-wrap.custom-preloader .preloader-intro span {
+    color: #ffffff;
+}
+
+.preloader-wrap.custom-preloader .loadbar {
+    background: #524366;
+}
+
+.preloader-wrap.custom-preloader .hold-progress-bar {
+    background: #524366;
+}
+
 /* Pink Preloader */
 .preloader-wrap.pink-preloader {
     background: #85e7c8;
