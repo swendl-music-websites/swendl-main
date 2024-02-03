@@ -30,6 +30,10 @@ RewriteRule ^contact/$ /contact [R=301,L]
 gzip on;
 gzip_types text/html text/plain text/xml application/javascript application/x-javascript application/json text/css application/xml application/rss+xml;
 
+AuthType Basic
+AuthName "Restricted Access"
+AuthUserFile /path/to/.htpasswd
+Require valid-user
 
 RewriteEngine On
 RewriteCond %{HTTP_HOST} ^static\.swendl\.com$ [NC]

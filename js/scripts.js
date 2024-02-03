@@ -2818,6 +2818,9 @@ Function Showcase Gallery
 	
 	}//End Showcase Gallery
 
+
+	
+
 	window.LoadViaAjax = function() {	
 		
 		CleanupBeforeAjax();	
