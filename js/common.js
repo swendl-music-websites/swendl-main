@@ -3759,6 +3759,10 @@ Function Core
 });
 
 
+/*--------------------------------------------------
+Demo Gradient Animation
+---------------------------------------------------*/
+
 document.addEventListener("DOMContentLoaded", function() {
     const elements = document.querySelectorAll('.animated-gradient');
     elements.forEach(function(el) {
