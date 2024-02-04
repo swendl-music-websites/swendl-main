@@ -3757,6 +3757,20 @@ Function Core
 	
 	
 });
+
+
+document.addEventListener("DOMContentLoaded", function() {
+    const elements = document.querySelectorAll('.animated-gradient');
+    elements.forEach(function(el) {
+        const color1 = el.getAttribute('data-color1');
+        const color2 = el.getAttribute('data-color2');
+        const color3 = el.getAttribute('data-color3');
+        
+        const gradientStyle = `linear-gradient(-42deg, ${color1}, ${color2}, ${color3})`;
+        el.style.backgroundImage = gradientStyle;
+    });
+});
+
 	
 	// Export functions to scripts
 	var ScrollEffects = window.ScrollEffects;

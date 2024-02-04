@@ -4342,7 +4342,7 @@ nav.open {
 .animated-gradient {
     position: relative;
     /* Add a third color (e.g., #f7ff00) to the gradient */
-    background: linear-gradient(-42deg, #6ccff6aa, #fde84cc7, #d782bbee);
+
     background-size: 500% 500%;
     animation: gradient 15s ease infinite;
     height: 100vh;
