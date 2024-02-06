@@ -4459,22 +4459,11 @@ nav.open {
 
 
 
-.col-s2n { 
-    display: flex; 
+/* Ensure base styles for .col-s2n allow for wrapping */
+.col-s2n {
+    display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-} 
-
-@media screen and (max-width: 768px) {
-    .one_fourth {
-        width: 48% !important; /* two columns for smaller screens */
-    }
-}
-
-@media screen and (max-width: 480px) {
-    .one_fourth {
-        width: 100% !important; /* one column for very small screens */
-    }
 }
 
 .p-shop  { 
@@ -4497,6 +4486,27 @@ nav.open {
     flex: 1;
 } 
 
+/* Adjust flex-basis for screens wider than 480px to allow 2 columns */
+@media screen and (max-width: 767px) {
+    .col-s2n > * {
+        flex: 0 48%; /* Adjust this value based on the gap you want between items */
+        margin-right: 4%; /* Adjust margin to ensure spacing between two items; this value plus twice the flex-basis should equal 100% */
+    }
+
+    /* Reset margin for the last item to ensure proper alignment */
+    .col-s2n > *:nth-child(2n) {
+        margin-right: 0;
+    }
+}
+
+/* For very small devices, make items take full width to stack vertically */
+@media screen and (max-width: 480px) {
+    .col-s2n > * {
+        flex: 0 100%;
+        margin-right: 0;
+    }
+}
+
 .link-tox { 
     position: relative; 
     z-index: 1; 
@@ -4505,7 +4515,6 @@ nav.open {
 
 .col-s2n .link-tox  { 
     position: relative; 
-    margin-right: 31px; 
     display: flex; 
     justify-content: space-between; 
     flex-direction: column;
@@ -4654,8 +4663,6 @@ nav.open {
 
 .link-tox.grid-1tk .product-747  { 
     margin-top: 0; 
-    margin-right: 10.5px; 
-    margin-left: 10.5px;
 } 
 
 @media screen and (min-width: 768px){ 
