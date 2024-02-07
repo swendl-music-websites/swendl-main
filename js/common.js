@@ -3775,6 +3775,29 @@ document.addEventListener("DOMContentLoaded", function() {
     });
 });
 
+/*--------------------------------------------------
+Demo Gradient Animation
+---------------------------------------------------*/
+
+  grecaptcha.ready(function() {
+    document.getElementById('contact-form').addEventListener('submit', function(event) {
+      event.preventDefault(); // Prevent the form from submitting immediately
+      grecaptcha.execute('your_site_key', {action: 'submit'}).then(function(token) {
+          // Add the token to the form
+          var tokenInput = document.createElement('input');
+          tokenInput.type = 'hidden';
+          tokenInput.name = 'g-recaptcha-response';
+          tokenInput.value = token;
+          document.getElementById('contact-form').appendChild(tokenInput);
+          
+          // Submit the form
+          document.getElementById('contact-form').submit();
+      });
+    });
+  });
+
+
+
 	
 	// Export functions to scripts
 	var ScrollEffects = window.ScrollEffects;
