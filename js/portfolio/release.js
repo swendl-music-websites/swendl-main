@@ -1,5 +1,13 @@
 const portfolioData = [
     {
+        title: "Cold Moment",
+        date: "2024",
+        artist: "Swendl",
+        link: "https://ffm.to/coldmoment",
+        imageSrc: "/images/music-cover/cold-moment.webp",
+        imageAlt: "Swendl - Cold Moment"
+    },
+    {
         title: "Promise",
         date: "2024",
         artist: "Swendl",

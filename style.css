@@ -4284,7 +4284,7 @@ nav.open {
     color: transparent; /* Make text transparent */
     margin: 0; /* Remove default margin */
     white-space: nowrap; /* Disable text wrapping */
-    -webkit-text-stroke: 2px #333; /* Add a stroke to the text */
+    -webkit-text-stroke: 2px #bdbdbd; /* Add a stroke to the text */
     text-stroke: 2px #333; /* Add a stroke to the text */
 }
 
@@ -4790,7 +4790,9 @@ nav.open {
     color: #000;
 } 
 
+.header_scroll-indicator__Np2Wd svg:last-of-type  { 
+    transform: rotate(90deg);
+} 
 
-  
-  
+
   
