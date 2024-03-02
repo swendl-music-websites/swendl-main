@@ -5,6 +5,7 @@ RewriteRule ^spotify$ https://open.spotify.com/artist/7qM8et7z0Ux5GAEaC3TYe0 [R=
 
 # Check if the requested filename is not a real file
 RewriteCond %{REQUEST_FILENAME} !-f
+
 # Then, rewrite the URL to add .html extension for non-dot containing paths
 RewriteRule ^([^\.]+)$ $1.html [NC,L,R=301]
 
@@ -18,5 +19,5 @@ RewriteRule ^(music|blog|shop|contact)/$ /$1 [R=301,L]
 # Basic authentication setup (if needed)
 AuthType Basic
 AuthName "Restricted Access"
-AuthUserFile /path/to/.htpasswd
+AuthUserFile .htpasswd
 Require valid-user
