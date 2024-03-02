@@ -1,0 +1,5 @@
+[[redirects]]
+  from = "/spotify"
+  to = "https://open.spotify.com/artist/7qM8et7z0Ux5GAEaC3TYe0"
+  status = 301
+  force = true
