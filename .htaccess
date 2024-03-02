@@ -47,3 +47,6 @@ server {
     }
 }
 
+# Redirect /spotify to your Spotify artist page
+RewriteRule ^spotify$ https://open.spotify.com/artist/7qM8et7z0Ux5GAEaC3TYe0 [R=301,L]
+
