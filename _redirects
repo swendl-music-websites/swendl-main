@@ -1,5 +1,11 @@
+// Redirect to Spotify artist page
 /spotify   https://open.spotify.com/artist/7qM8et7z0Ux5GAEaC3TYe0   301
+
+// Redirect to YouTube channel
 /youtube   https://www.youtube.com/channel/UCEDkeLWRr-AUsCAR9rOjJfw   301
+
+// Redirect to Apple Music artist page
 /apple   https://music.apple.com/us/artist/swendl/1479028347  301
 
+// Redirect all other requests to index.html
 /*    /index.html   200

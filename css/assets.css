@@ -104,7 +104,8 @@ Primary use:	Showcase Portfolio
 		-moz-transition:none;
 		-ms-transition:none;
 		transition:none;
-		-webkit-transform-style:preserve-3d;
+		-webkit-transform-style: preserve-3d;
+		transform-style: preserve-3d;
 		overflow:hidden;
 		max-height:0
 	}
