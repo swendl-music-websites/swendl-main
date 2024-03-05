@@ -3776,7 +3776,28 @@ document.addEventListener("DOMContentLoaded", function() {
 });
 
 
+/*--------------------------------------------------
+				Console Message
+---------------------------------------------------*/
 
+console.log("%cDeveloped by Swendl", "color: green; font-size: 20px;");
+console.log("%cLet me know if you found any bugs under the hood.", "color: blue; font-size: 14px;");
+
+function logStyledMessage(message, styles) {
+    console.log(`%c${message}`, styles);
+}
+
+const message = 'Hey there! Free Cookies from Swendl 🐼';
+const styles = 'color:#1cce69; background: #3d09bf; font-size: 1.5rem; padding: 0.15rem 0.25rem; margin: 1rem; font-family: Helvetica; border: 2px solid #1cce69; border-radius: 4px; font-weight: bold; text-shadow: 1px 1px 1px #0a0121; font-style: italic;';
+
+
+
+
+
+// Call the function
+
+
+logStyledMessage(message, styles);
 
 	
 	// Export functions to scripts
