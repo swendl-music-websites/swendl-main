@@ -1,0 +1,292 @@
+                                    <!-- Showcase Portfolio Holder -->
+                                    <div id="itemsWrapperLinks">
+                                        <div id="itemsWrapper" class="webgl-fitthumbs fx-seven">
+                                            <!-- ClaPat Portfolio -->
+                                            <div class="showcase-portfolio release-list-item" id="portfolio"></div>
+                                            
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                            <div class="showcase-portfolio release-list-item">
+                                                <div class="clapat-item 2022-filter" data-startparallax="-0.2" data-endparallax="0.2">
+                                                    <div class="slide-inner" data-centerLine="LISTEN">
+                                                        <div class="img-mask">
+                                                            <a href="https://release.swendl.com/stuck_in_your_space.OWE" target="_blank">
+                                                                <div class="section-image">
+                                                                    <img src="/images/01hero.jpg" class="item-image grid__item-img" alt="Album" />
+                                                                </div>
+                                                            </a>
+                                                        </div>
+                                                        <div class="slide-caption trigger-item-link-secondary">
+                                                            <div class="slide-title">
+                                                                <span><em>Stuck In Your</em> Space</span>
+                                                            </div>
+                                                            <div class="slide-date"><span>2022</span></div>
+                                                            <div class="slide-cat"><span>Swendl</span></div>
+                                                            <div class="slide-icon"><i class="arrow-icon-down"></i></div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="clapat-item 2022-filter" data-startparallax="-0.2" data-endparallax="0.2">
+                                                    <div class="slide-inner" data-centerLine="LISTEN">
+                                                        <div class="img-mask">
+                                                            <a href="https://release.swendl.com/theendafterworld.OWE" target="_blank">
+                                                                <div class="section-image">
+                                                                    <img src="/images/02hero.jpg" class="item-image grid__item-img" alt="Album" />
+                                                                </div>
+                                                            </a>
+                                                        </div>
+                                                        <div class="slide-caption trigger-item-link-secondary">
+                                                            <div class="slide-title">
+                                                                <span>The End Afterworld</span>
+                                                            </div>
+                                                            <div class="slide-date"><span>2022</span></div>
+                                                            <div class="slide-cat"><span>Swendl</span></div>
+                                                            <div class="slide-icon"><i class="arrow-icon-down"></i></div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="clapat-item 2023-filter" data-startparallax="-0.2" data-endparallax="0.2">
+                                                    <div class="slide-inner" data-centerLine="LISTEN">
+                                                        <div class="img-mask">
+                                                            <a href="https://release.swendl.com/inthisworld.OWE" target="_blank">
+                                                                <div class="section-image">
+                                                                    <img src="/images/03hero.jpg" class="item-image grid__item-img" alt="Album" />
+                                                                </div>
+                                                            </a>
+                                                        </div>
+                                                        <div class="slide-caption trigger-item-link-secondary">
+                                                            <div class="slide-title">
+                                                                <span>In This World</span>
+                                                            </div>
+                                                            <div class="slide-date"><span>2022</span></div>
+                                                            <div class="slide-cat"><span>Swendl</span></div>
+                                                            <div class="slide-icon"><i class="arrow-icon-down"></i></div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="clapat-item 2022-filter" data-startparallax="-0.2" data-endparallax="0.2">
+                                                    <div class="slide-inner" data-centerLine="LISTEN">
+                                                        <div class="img-mask">
+                                                            <a href="https://release.swendl.com/stuck_in_your_space.OWE" target="_blank">
+                                                                <div class="section-image">
+                                                                    <img src="/images/05hero.jpg" class="item-image grid__item-img" alt="Album" />
+                                                                </div>
+                                                            </a>
+                                                        </div>
+                                                        <div class="slide-caption trigger-item-link-secondary">
+                                                            <div class="slide-title">
+                                                                <span>Got The Love</span>
+                                                            </div>
+                                                            <div class="slide-date"><span>2022</span></div>
+                                                            <div class="slide-cat"><span>Swendl</span></div>
+                                                            <div class="slide-icon"><i class="arrow-icon-down"></i></div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="clapat-item 2021-filter" data-startparallax="-0.2" data-endparallax="0.2">
+                                                    <div class="slide-inner" data-centerLine="LISTEN">
+                                                        <div class="img-mask">
+                                                            <a href="https://release.swendl.com/blacck.OWE" target="_blank">
+                                                                <div class="section-image">
+                                                                    <img src="/images/06hero.jpg" class="item-image grid__item-img" alt="Album" />
+                                                                </div>
+                                                            </a>
+                                                        </div>
+                                                        <div class="slide-caption trigger-item-link-secondary">
+                                                            <div class="slide-title">
+                                                                <span>Black</span>
+                                                            </div>
+                                                            <div class="slide-date"><span>2022</span></div>
+                                                            <div class="slide-cat"><span>Swendl</span></div>
+                                                            <div class="slide-icon"><i class="arrow-icon-down"></i></div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="clapat-item 2022-filter" data-startparallax="-0.2" data-endparallax="0.2">
+                                                    <div class="slide-inner" data-centerLine="LISTEN">
+                                                        <div class="img-mask">
+                                                            <a href="https://release.swendl.com/dr7jb1p.OWE" target="_blank">
+                                                                <div class="section-image">
+                                                                    <img src="/images/02music.jpg" class="item-image grid__item-img" alt="Album" />
+                                                                </div>
+                                                            </a>
+                                                        </div>
+                                                        <div class="slide-caption trigger-item-link-secondary">
+                                                            <div class="slide-title">
+                                                                <span>Let's Go</span>
+                                                            </div>
+                                                            <div class="slide-date"><span>2022</span></div>
+                                                            <div class="slide-cat"><span>Swendl</span></div>
+                                                            <div class="slide-icon"><i class="arrow-icon-down"></i></div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="clapat-item 2022-filter" data-startparallax="-0.2" data-endparallax="0.2">
+                                                    <div class="slide-inner" data-centerLine="LISTEN">
+                                                        <div class="img-mask">
+                                                            <a href="https://release.swendl.com/6j7bq8q" target="_blank">
+                                                                <div class="section-image">
+                                                                    <img src="/images/04hero.jpg" class="item-image grid__item-img" alt="Album" />
+                                                                </div>
+                                                            </a>
+                                                        </div>
+                                                        <div class="slide-caption trigger-item-link-secondary">
+                                                            <div class="slide-title">
+                                                                <span>Say</span>
+                                                            </div>
+                                                            <div class="slide-date"><span>2022</span></div>
+                                                            <div class="slide-cat"><span>Swendl</span></div>
+                                                            <div class="slide-icon"><i class="arrow-icon-down"></i></div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="clapat-item 2022-filter" data-startparallax="-0.2" data-endparallax="0.2">
+                                                    <div class="slide-inner" data-centerLine="LISTEN">
+                                                        <div class="img-mask">
+                                                            <a href="https://release.swendl.com/stuck_in_your_space.OWE" target="_blank">
+                                                                <div class="section-image">
+                                                                    <img src="/images/01hero.jpg" class="item-image grid__item-img" alt="Album" />
+                                                                </div>
+                                                            </a>
+                                                        </div>
+                                                        <div class="slide-caption trigger-item-link-secondary">
+                                                            <div class="slide-title">
+                                                                <span><em>Stuck In Your</em> Space</span>
+                                                            </div>
+                                                            <div class="slide-date"><span>2022</span></div>
+                                                            <div class="slide-cat"><span>Swendl</span></div>
+                                                            <div class="slide-icon"><i class="arrow-icon-down"></i></div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="clapat-item 2022-filter" data-startparallax="-0.2" data-endparallax="0.2">
+                                                    <div class="slide-inner" data-centerLine="LISTEN">
+                                                        <div class="img-mask">
+                                                            <a href="https://release.swendl.com/slowworld.OWE" target="_blank">
+                                                                <div class="section-image">
+                                                                    <img src="/images/03music.jpg" class="item-image grid__item-img" alt="Album" />
+                                                                </div>
+                                                            </a>
+                                                        </div>
+                                                        <div class="slide-caption trigger-item-link-secondary">
+                                                            <div class="slide-title">
+                                                                <span>Slow World</span>
+                                                            </div>
+                                                            <div class="slide-date"><span>2021</span></div>
+                                                            <div class="slide-cat"><span>Swendl</span></div>
+                                                            <div class="slide-icon"><i class="arrow-icon-down"></i></div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="clapat-item 2020-filter" data-startparallax="-0.2" data-endparallax="0.2">
+                                                    <div class="slide-inner" data-centerLine="LISTEN">
+                                                        <div class="img-mask">
+                                                            <a href="https://release.swendl.com/qox2bm2.OWE" target="_blank">
+                                                                <div class="section-image">
+                                                                    <img src="/images/06music.jpg" class="item-image grid__item-img" alt="Album" />
+                                                                </div>
+                                                            </a>
+                                                        </div>
+                                                        <div class="slide-caption trigger-item-link-secondary">
+                                                            <div class="slide-title">
+                                                                <span>Air Taste</span>
+                                                            </div>
+                                                            <div class="slide-date"><span>2022</span></div>
+                                                            <div class="slide-cat"><span>Swendl</span></div>
+                                                            <div class="slide-icon"><i class="arrow-icon-down"></i></div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="clapat-item 2020-filter" data-startparallax="-0.2" data-endparallax="0.2">
+                                                    <div class="slide-inner" data-centerLine="LISTEN">
+                                                        <div class="img-mask">
+                                                            <a href="https://release.swendl.com/q9pjgak.OWE" target="_blank">
+                                                                <div class="section-image">
+                                                                    <img src="/images/08music.jpg" class="item-image grid__item-img" alt="Album" />
+                                                                </div>
+                                                            </a>
+                                                        </div>
+                                                        <div class="slide-caption trigger-item-link-secondary">
+                                                            <div class="slide-title">
+                                                                <span>Time Is Settled</span>
+                                                            </div>
+                                                            <div class="slide-date"><span>2020</span></div>
+                                                            <div class="slide-cat"><span>Swendl</span></div>
+                                                            <div class="slide-icon"><i class="arrow-icon-down"></i></div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="clapat-item 2019-filter" data-startparallax="-0.2" data-endparallax="0.2">
+                                                    <div class="slide-inner" data-centerLine="LISTEN">
+                                                        <div class="img-mask">
+                                                            <a href="https://release.swendl.com/eaqvzzk.OWEE" target="_blank">
+                                                                <div class="section-image">
+                                                                    <img src="/images/04music.jpg" class="item-image grid__item-img" alt="Album" />
+                                                                </div>
+                                                            </a>
+                                                        </div>
+                                                        <div class="slide-caption trigger-item-link-secondary">
+                                                            <div class="slide-title">
+                                                                <span>From the Ground</span>
+                                                            </div>
+                                                            <div class="slide-date"><span>2022</span></div>
+                                                            <div class="slide-cat"><span>Swendl</span></div>
+                                                            <div class="slide-icon"><i class="arrow-icon-down"></i></div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="clapat-item 2019-filter" data-startparallax="-0.2" data-endparallax="0.2">
+                                                    <div class="slide-inner" data-centerLine="LISTEN">
+                                                        <div class="img-mask">
+                                                            <a href="https://release.swendl.com/eaqvzzk.OWEE" target="_blank">
+                                                                <div class="section-image">
+                                                                    <img src="/images/07music.jpg" class="item-image grid__item-img" alt="Album" />
+                                                                </div>
+                                                            </a>
+                                                        </div>
+                                                        <div class="slide-caption trigger-item-link-secondary">
+                                                            <div class="slide-title">
+                                                                <span>Tell Me</span>
+                                                            </div>
+                                                            <div class="slide-date"><span>2022</span></div>
+                                                            <div class="slide-cat"><span>Swendl</span></div>
+                                                            <div class="slide-icon"><i class="arrow-icon-down"></i></div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="clapat-item 2018-filter" data-startparallax="-0.2" data-endparallax="0.2">
+                                                    <div class="slide-inner" data-centerLine="LISTEN">
+                                                        <div class="img-mask">
+                                                            <a href="https://release.swendl.com/afterworldremix.OWE" target="_blank">
+                                                                <div class="section-image">
+                                                                    <img src="/images/05music.jpg" class="item-image grid__item-img" alt="Album" />
+                                                                </div>
+                                                            </a>
+                                                        </div>
+                                                        <div class="slide-caption trigger-item-link-secondary">
+                                                            <div class="slide-title">
+                                                                <span>Afterworld</span>
+                                                            </div>
+                                                            <div class="slide-date"><span>2018</span></div>
+                                                            <div class="slide-cat"><span>Swendl - Remix</span></div>
+                                                            <div class="slide-icon"><i class="arrow-icon-down"></i></div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <!-- ClaPat Portfolio -->
+                                        </div>
+                                    </div>
+                                    <!-- Showcase Portfolio Holder --
