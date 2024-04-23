@@ -1,5 +1,13 @@
 const portfolioData = [
     {
+        title: "Heart Beat",
+        date: "2024",
+        artist: "Swendl",
+        link: "https://artists.landr.com/064837747972",
+        imageSrc: "/images/music-cover/heart-beat.webp",
+        imageAlt: "Swendl - Heart Beat"
+    },
+    {
         title: "Cold Moment",
         date: "2024",
         artist: "Swendl",
