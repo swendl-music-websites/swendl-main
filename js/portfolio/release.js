@@ -1,9 +1,17 @@
 const portfolioData = [
     {
+        title: "Turn The Music Up",
+        date: "2024",
+        artist: "Swendl (MOONBOY Contest)",
+        link: "https://soundcloud.com/swendl/swendl-turn-the-music-up",
+        imageSrc: "/images/music-cover/turn-the-music-up-swendl.webp",
+        imageAlt: "Swendl - Turn The Music Up (MOONBOY Contest)"
+    },
+    {
         title: "Heart Beat",
         date: "2024",
         artist: "Swendl",
-        link: "https://artists.landr.com/064837747972",
+        link: "https://ffm.to/y6xjbrb",
         imageSrc: "/images/music-cover/heart-beat.webp",
         imageAlt: "Swendl - Heart Beat"
     },
