@@ -7,6 +7,7 @@ const portfolioData = [
         imageSrc: "/images/music-cover/turn-the-music-up-swendl.webp",
         imageAlt: "Swendl - Turn The Music Up (MOONBOY Contest)"
     },
+    
     {
         title: "Heart Beat",
         date: "2024",
@@ -15,6 +16,7 @@ const portfolioData = [
         imageSrc: "/images/music-cover/heart-beat.webp",
         imageAlt: "Swendl - Heart Beat"
     },
+
     {
         title: "Cold Moment",
         date: "2024",
@@ -23,6 +25,7 @@ const portfolioData = [
         imageSrc: "/images/music-cover/cold-moment.webp",
         imageAlt: "Swendl - Cold Moment"
     },
+
     {
         title: "Promise",
         date: "2024",
@@ -39,6 +42,7 @@ const portfolioData = [
         imageSrc: "/images/music-cover/matvey-emerson-x-able-faces-speed-of-light-swendl-remix.webp",
         imageAlt: "Matvey Emerson X Able Faces - Speed Of Light (Swendl Remix)"
     },
+
     {
         title: "Drive With Me",
         date: "2023",
@@ -47,6 +51,7 @@ const portfolioData = [
         imageSrc: "/images/music-cover/drive-with-me.webp",
         imageAlt: "Swendl - Drive With Me"
     },
+
     {
         title: "Stuck In Your Space",
         date: "2022",
@@ -114,7 +119,7 @@ const portfolioData = [
         title: "Emanation",
         date: "2021",
         artist: "Swendl",
-        link: "https://release.swendl.com/jmy4pra.OWE",
+        link: "https://go.swendl.com/vGKV",
         imageSrc: "/images/music-cover/emanation.webp",
         imageAlt: "Swendl - Emanation"
     },
