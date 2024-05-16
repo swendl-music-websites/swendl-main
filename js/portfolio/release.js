@@ -3,7 +3,7 @@ const portfolioData = [
         title: "Turn The Music Up",
         date: "2024",
         artist: "Swendl (MOONBOY Contest)",
-        link: "https://soundcloud.com/swendl/swendl-turn-the-music-up",
+        link: "https://go.swendl.com/vGKs",
         imageSrc: "/images/music-cover/turn-the-music-up-swendl.webp",
         imageAlt: "Swendl - Turn The Music Up (MOONBOY Contest)"
     },
@@ -11,7 +11,7 @@ const portfolioData = [
         title: "Heart Beat",
         date: "2024",
         artist: "Swendl",
-        link: "https://ffm.to/y6xjbrb",
+        link: "https://go.swendl.com/vGpF",
         imageSrc: "/images/music-cover/heart-beat.webp",
         imageAlt: "Swendl - Heart Beat"
     },
@@ -19,7 +19,7 @@ const portfolioData = [
         title: "Cold Moment",
         date: "2024",
         artist: "Swendl",
-        link: "https://ffm.to/coldmoment",
+        link: "https://go.swendl.com/vGKv",
         imageSrc: "/images/music-cover/cold-moment.webp",
         imageAlt: "Swendl - Cold Moment"
     },
@@ -27,7 +27,7 @@ const portfolioData = [
         title: "Promise",
         date: "2024",
         artist: "Swendl",
-        link: "https://ffm.to/67lexvk",
+        link: "https://go.swendl.com/vGKx",
         imageSrc: "/images/music-cover/promise.webp",
         imageAlt: "Swendl - Promise"
     },
@@ -35,7 +35,7 @@ const portfolioData = [
         title: "Speed Of Light",
         date: "2024",
         artist: "Matvey Emerson X Able Faces (Swendl Remix)",
-        link: "https://www.youtube.com/channel/UCEDkeLWRr-AUsCAR9rOjJfw",
+        link: "https://go.swendl.com/vGKz",
         imageSrc: "/images/music-cover/matvey-emerson-x-able-faces-speed-of-light-swendl-remix.webp",
         imageAlt: "Matvey Emerson X Able Faces - Speed Of Light (Swendl Remix)"
     },
@@ -43,7 +43,7 @@ const portfolioData = [
         title: "Drive With Me",
         date: "2023",
         artist: "Swendl",
-        link: "https://release.swendl.com/drive-with-me.OWE",
+        link: "https://go.swendl.com/vGKB",
         imageSrc: "/images/music-cover/drive-with-me.webp",
         imageAlt: "Swendl - Drive With Me"
     },
@@ -51,7 +51,7 @@ const portfolioData = [
         title: "Stuck In Your Space",
         date: "2022",
         artist: "Swendl",
-        link: "https://release.swendl.com/stuck_in_your_space.OWE",
+        link: "https://go.swendl.com/vGKC",
         imageSrc: "/images/music-cover/stuck-in-your-space.webp",
         imageAlt: "Swendl - Stuck In Your Space"
     },
@@ -60,7 +60,7 @@ const portfolioData = [
         title: "The End Afterworld",
         date: "2022",
         artist: "Swendl",
-        link: "https://release.swendl.com/theendafterworld.OWE",
+        link: "https://go.swendl.com/vGKD",
         imageSrc: "/images/music-cover/the-end-afterworld.webp",
         imageAlt: "Swendl - The End Afterworld"
     },
@@ -69,7 +69,7 @@ const portfolioData = [
         title: "In This World",
         date: "2022",
         artist: "Swendl",
-        link: "https://release.swendl.com/inthisworld",
+        link: "https://go.swendl.com/vGKE",
         imageSrc: "/images/music-cover/in-this-world.webp",
         imageAlt: "Swendl - In This World"
     },
@@ -78,7 +78,7 @@ const portfolioData = [
         title: "Got The Love",
         date: "2022",
         artist: "Swendl",
-        link: "https://release.swendl.com/gotthelove.OWE",
+        link: "https://go.swendl.com/vGKF",
         imageSrc: "/images/music-cover/got-the-love.webp",
         imageAlt: "Swendl - Got The Love"
     },
@@ -87,7 +87,7 @@ const portfolioData = [
         title: "Black",
         date: "2022",
         artist: "Swendl",
-        link: "https://release.swendl.com/blacck.OWE",
+        link: "https://go.swendl.com/vGKG",
         imageSrc: "/images/music-cover/black.webp",
         imageAlt: "Swendl - Black"
     },
@@ -96,7 +96,7 @@ const portfolioData = [
         title: "Air Taste",
         date: "2022",
         artist: "Swendl",
-        link: "https://release.swendl.com/qox2bm2.OWE",
+        link: "https://go.swendl.com/vGKH",
         imageSrc: "/images/music-cover/air-taste.webp",
         imageAlt: "Swendl - Air Taste"
     },
@@ -105,7 +105,7 @@ const portfolioData = [
         title: "Let's Go",
         date: "2021",
         artist: "Swendl",
-        link: "https://release.swendl.com/4v6q3o4.OWE",
+        link: "https://go.swendl.com/vGKJ",
         imageSrc: "/images/music-cover/let's-go.webp",
         imageAlt: "Swendl - Let's Go"
     },
@@ -123,7 +123,7 @@ const portfolioData = [
         title: "Coming Back",
         date: "2021",
         artist: "Swendl",
-        link: "https://release.swendl.com/comingback.OWE",
+        link: "https://go.swendl.com/vGKK",
         imageSrc: "/images/music-cover/coming-back.webp",
         imageAlt: "Swendl - Coming Back"
     },
@@ -132,7 +132,7 @@ const portfolioData = [
         title: "Say",
         date: "2020",
         artist: "Swendl",
-        link: "https://release.swendl.com/6j7bq8q",
+        link: "https://go.swendl.com/vGKM",
         imageSrc: "/images/music-cover/say.webp",
         imageAlt: "Swendl - Say"
     },
@@ -141,7 +141,7 @@ const portfolioData = [
         title: "Slow World",
         date: "2020",
         artist: "Swendl",
-        link: "https://release.swendl.com/6j7bq8q",
+        link: "https://go.swendl.com/vGKN",
         imageSrc: "/images/music-cover/slow-world.webp",
         imageAlt: "Swendl - Slow World"
     },
@@ -150,7 +150,7 @@ const portfolioData = [
         title: "Time Is Settled",
         date: "2020",
         artist: "Swendl",
-        link: "https://release.swendl.com/q9pjgak.OWE",
+        link: "https://go.swendl.com/vGKQ",
         imageSrc: "/images/music-cover/time-is-settled.webp",
         imageAlt: "Swendl - Time Is Settled"
     },
@@ -159,7 +159,7 @@ const portfolioData = [
         title: "Tell Me",
         date: "2019",
         artist: "Swendl",
-        link: "https://release.swendl.com/tellme.OWE",
+        link: "https://go.swendl.com/vGKR",
         imageSrc: "/images/music-cover/tell-me.webp",
         imageAlt: "Swendl - Tell Me"
     },
@@ -168,7 +168,7 @@ const portfolioData = [
         title: "From the Ground",
         date: "2019",
         artist: "Swendl",
-        link: "https://release.swendl.com/eaqvzzk.OWE",
+        link: "https://go.swendl.com/vGKT",
         imageSrc: "/images/music-cover/from-the-ground.webp",
         imageAlt: "Swendl - From the Ground"
     },
@@ -177,7 +177,7 @@ const portfolioData = [
         title: "Afterworld",
         date: "2018",
         artist: "Swendl",
-        link: "https://release.swendl.com/afterworldremix.OWE",
+        link: "https://go.swendl.com/vGKU",
         imageSrc: "/images/music-cover/afterworld.webp",
         imageAlt: "Swendl - Afterworld"
     },
