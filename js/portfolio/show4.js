@@ -4,7 +4,7 @@ const portfolioContainer_4 = document.getElementById("portfolio-4");
 const itemsToShow = 4;
 
 portfolioDataToShow4.slice(0, itemsToShow).forEach(item => {
-    const itemHTML = `
+   const itemHTML = `
         <div class="clapat-item ${item.date}-filter" data-startparallax="-0.2" data-endparallax="0.2">
             <div class="slide-inner" data-centerLine="LISTEN">
                 <div class="img-mask">
@@ -25,6 +25,5 @@ portfolioDataToShow4.slice(0, itemsToShow).forEach(item => {
             </div>
         </div>
         `;
-    portfolioContainer_4.insertAdjacentHTML("beforeend", itemHTML);
+   portfolioContainer_4.insertAdjacentHTML("beforeend", itemHTML);
 });
-
