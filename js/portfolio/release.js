@@ -1,4 +1,23 @@
-const portfolioData = [{
+const portfolioData = [
+   {
+      title: "I Don't Feel",
+      date: "2024",
+      artist: "Swendl",
+      link: "https://go.swendl.com/vNij",
+      imageSrc: "/images/music-cover/i-dont-feel.webp",
+      imageAlt: "Swendl - I Don't Feel"
+   },
+   {
+      title: "DIVA",
+      date: "2024",
+      artist: "Swendl (Bishu Contest)",
+      link: "https://youtu.be/L_pDNbHwgSA",
+      imageSrc: "/images/music-cover/bishu-diva.webp",
+      imageAlt: "Bishu - DIVA (Swendl Remix)"
+   },
+   
+   
+   {
     title: "Turn The Music Up",
     date: "2024",
     artist: "Swendl (MOONBOY Contest)",
