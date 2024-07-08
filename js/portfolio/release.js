@@ -1,5 +1,13 @@
 const portfolioData = [
    {
+      title: "Fade Till Sunrise (Swendl Remix)",
+      date: "2024",
+      artist: "Kryder",
+      link: "https://go.swendl.com/vQ8D",
+      imageSrc: "/images/music-cover/kryder-swendl-remix-fade-till-sunrise.webp",
+      imageAlt: "Kryder - Fade Till Sunrise (Swendl Remix)"
+   },
+   {
       title: "I Don't Feel",
       date: "2024",
       artist: "Swendl",
