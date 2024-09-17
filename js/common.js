@@ -1789,9 +1789,6 @@ Function First Load
 	}// End First Load
 	
 	
-
-	
-	
 /*--------------------------------------------------
 Function FitThumbScreen WEBGL
 ---------------------------------------------------*/	
