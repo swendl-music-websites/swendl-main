@@ -801,11 +801,11 @@
 		width: auto;
 		border: solid 2px #000;
 		background-color: #000;
-		border-radius: 5px;
+		border-radius: 3px;
 		cursor: pointer;
 		font-size: 16px;
 		font-weight: 500;
-		line-height: 50px;
+		line-height: 45px;
 		overflow: hidden;
 		color: #000;
 		text-align: center;
