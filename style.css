@@ -4785,5 +4785,37 @@ nav.open {
     transform: rotate(90deg);
 } 
 
+/*----------------------------------------------
+            09. Leaf Animation
+-----------------------------------------------*/
+
+/* Falling leaf styles */
+.leaf {
+    position: absolute;
+    width: 30px;
+    opacity: 0.8;
+    z-index: 3; /* Make sure leaves are in front of everything */
+    animation: fall linear infinite;
+    pointer-events: none;
+}
+@keyframes fall {
+    0% {
+        transform: translateY(-100px) rotate(0deg);
+        opacity: 1;
+    }
+    100% {
+        transform: translateY(100vh) rotate(720deg); /* Increased rotation for a more dynamic fall */
+        opacity: 0.5;
+    }
+}
+
+/* Adding horizontal swaying with varied intensity */
+@keyframes sway {
+    0% { transform: translateX(0); }
+    25% { transform: translateX(15px); }
+    50% { transform: translateX(-30px); }
+    75% { transform: translateX(20px); }
+    100% { transform: translateX(0); }
+}
 
   

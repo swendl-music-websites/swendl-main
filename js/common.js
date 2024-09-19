@@ -3236,7 +3236,7 @@ Function Page PlayVideo
 
 	
 /*--------------------------------------------------
-Function Core
+				Function Core
 ---------------------------------------------------*/
 
 	window.Core = function() {
@@ -3756,21 +3756,171 @@ Function Core
 });
 
 
-/*--------------------------------------------------
-Demo Gradient Animation
----------------------------------------------------*/
 
-document.addEventListener("DOMContentLoaded", function() {
-    const elements = document.querySelectorAll('.animated-gradient');
-    elements.forEach(function(el) {
-        const color1 = el.getAttribute('data-color1');
-        const color2 = el.getAttribute('data-color2');
-        const color3 = el.getAttribute('data-color3');
-        
-        const gradientStyle = `linear-gradient(-42deg, ${color1}, ${color2}, ${color3})`;
-        el.style.backgroundImage = gradientStyle;
+/*--------------------------------------------------
+					Music Release
+---------------------------------------------------*/
+// Function to display portfolio items
+function displayPortfolioItems(containerId, itemsToShow = null) {
+    const portfolioData = window.portfolioData; // Access global portfolio data
+    const portfolioContainer = document.getElementById(containerId);
+    
+    if (!portfolioContainer) {
+        console.error(`Container with id '${containerId}' not found.`);
+        return;
+    }
+
+    let dataToDisplay = portfolioData;
+
+    // If itemsToShow is specified, slice the data to show only that many items
+    if (itemsToShow && typeof itemsToShow === 'number') {
+        dataToDisplay = dataToDisplay.slice(0, itemsToShow);
+    }
+
+    // Clear existing content (if any) in the container
+    portfolioContainer.innerHTML = '';
+
+    // Generate and insert HTML for each item
+    dataToDisplay.forEach(item => {
+        const itemHTML = `
+            <div class="clapat-item ${item.year}-filter" data-startparallax="-0.2" data-endparallax="0.2">
+                <div class="slide-inner" data-centerLine="LISTEN">
+                    <div class="img-mask">
+                        <a href="${item.link}" target="_blank">
+                            <div class="section-image">
+                                <img src="${item.imageSrc}" class="item-image grid__item-img" alt="${item.imageAlt}" loading="lazy" />
+                            </div>
+                        </a>
+                    </div>
+                    <div class="slide-caption trigger-item-link-secondary">
+                        <div class="slide-title"><span>${item.title}</span></div>
+                        <div class="slide-date"><span>${item.year}</span></div>
+                        <div class="slide-artist"><span>${item.artist}</span></div>
+                        <div class="slide-icon"><i class="arrow-icon-down"></i></div>
+                    </div>
+                </div>
+            </div>
+        `;
+        portfolioContainer.insertAdjacentHTML("beforeend", itemHTML);
     });
+}
+
+// Usage examples:
+// Show only 4 items
+document.addEventListener('DOMContentLoaded', () => {
+    if (document.getElementById('portfolio-4')) {
+        displayPortfolioItems('portfolio-4', 4);
+    }
+
+    // Show all items
+    if (document.getElementById('portfolio-all')) {
+        displayPortfolioItems('portfolio-all');
+    }
 });
+
+
+window.portfolioData = portfolioData;
+document.addEventListener('DOMContentLoaded', function() {
+   const release = portfolioData[0]; // Change index if you want to grab another release
+
+   // Function to safely set text content
+   function setElementText(id, text) {
+       const element = document.getElementById(id);
+       if (element) {
+           element.textContent = text;
+       } else {
+           // console.warn(`Element with id '${id}' not found`);
+       }
+   }
+
+   // Function to safely set attribute
+   function setElementAttribute(id, attr, value) {
+       const element = document.getElementById(id);
+       if (element) {
+           element[attr] = value;
+       } else {
+           // console.warn(`Element with id '${id}' not found`);
+       }
+   }
+
+   // Music Page elements
+   const musicPageElements = {
+       'music-release-title': release.title,
+       'music-release-artist': release.artist,
+       'music-release-title-bg': release.title,
+       'music-release-title-bg-2': release.title,
+       'music-release-date': release.data
+   };
+
+   // Set text content for Music Page elements
+   Object.entries(musicPageElements).forEach(([id, text]) => {
+       setElementText(id, text);
+   });
+
+   // Set attributes for Music Page elements
+   setElementAttribute('music-release-link', 'href', release.link);
+   setElementAttribute('music-release-image', 'src', release.imageSrc);
+   setElementAttribute('music-release-image', 'alt', release.imageAlt);
+
+   // Main Page elements
+   const mainPageElements = {
+       'main-release-title': release.title
+   };
+
+   // Set text content for Main Page elements
+   Object.entries(mainPageElements).forEach(([id, text]) => {
+       setElementText(id, text);
+   });
+
+   // Set attributes for Main Page elements
+   setElementAttribute('main-release-link', 'href', release.link);
+   setElementAttribute('main-release-image-bg', 'src', release.imageSrc_Background_Wide);
+
+   // Logging
+   // console.log('Release object:', release);
+   // console.log('Title:', release.title);
+   // console.log('Link:', release.link);
+   // console.log('Image source:', release.imageSrc_Background_Wide);
+});
+
+/*--------------------------------------------------
+					Custom FX
+---------------------------------------------------*/
+const validCharacters = '0123456789!@#$%^&*()_+[]{}|;:,.<>?';
+
+// Function to start the random animation
+function startRandomAnimation(elementId, textLength = 8, minDelay = 50, maxDelay = 250) {
+    const animationElement = document.querySelector(`#${elementId}`);
+    
+    if (!animationElement) {
+        console.error(`Element with id '${elementId}' not found.`);
+        return;
+    }
+
+    // Function to update the text content of the animation element
+    function updateText() {
+        let randomText = '';
+        for (let i = 0; i < textLength; i++) {
+            const randomIndex = Math.floor(Math.random() * validCharacters.length);
+            randomText += validCharacters[randomIndex];
+        }
+        animationElement.textContent = randomText;
+
+        // Use requestAnimationFrame for smoother animation
+        setTimeout(updateText, getRandomDelay());
+    }
+
+    // Function to get a random delay between minDelay and maxDelay
+    function getRandomDelay() {
+        return Math.random() * (maxDelay - minDelay) + minDelay;
+    }
+
+    // Start the animation
+    updateText();
+}
+
+// Example usage:
+// startRandomAnimation('random-animation', 8, 50, 250);
 
 
 /*--------------------------------------------------
@@ -3788,14 +3938,52 @@ const message = 'Hey there! Free Cookies from Swendl 🐼';
 const styles = 'color:#1cce69; background: #3d09bf; font-size: 1.5rem; padding: 0.15rem 0.25rem; margin: 1rem; font-family: Helvetica; border: 2px solid #1cce69; border-radius: 4px; font-weight: bold; text-shadow: 1px 1px 1px #0a0121; font-style: italic;';
 
 
+/*--------------------------------------------------
+				Leaf Animation
+---------------------------------------------------*/
+
+const leafContainer = document.getElementById('leaf-container');
+const leafImages = ['/images/1-leaf.png', '/images/2-leaf.png']; // Array containing paths to both leaf images
+const totalLeaves = 8;
+
+for (let i = 0; i < totalLeaves; i++) {
+    const leaf = document.createElement('img');
+
+    // Randomly choose between the two leaf images
+    const randomLeafImage = leafImages[Math.floor(Math.random() * leafImages.length)];
+    leaf.src = randomLeafImage;
+    
+    leaf.classList.add('leaf');
+
+    // Randomize the starting horizontal position
+    leaf.style.left = `${Math.random() * 100}vw`;
+
+    // Randomize the size of each leaf (between 20px and 50px)
+    const randomSize = Math.random() * 30 + 20;
+    leaf.style.width = `${randomSize}px`;
+
+    // Randomize the duration of the falling animation (between 5s and 15s)
+    leaf.style.animationDuration = `${Math.random() * 10 + 5}s`;
+
+    // Randomize the delay before the leaf starts falling
+    leaf.style.animationDelay = `${Math.random() * 5}s`;
+
+    // Add rotation speed variation
+    const randomRotationSpeed = Math.random() * 360 + 360; // Between 360deg and 720deg for rotation
+    leaf.style.transform = `rotate(${randomRotationSpeed}deg)`;
+
+    leafContainer.appendChild(leaf);
+}
 
 
 
 
 
-// Call the function
 
 
+/*----------------------------------------------
+				Export Functions
+------------------------------------------------*/
 logStyledMessage(message, styles);
 
 	

@@ -2711,14 +2711,16 @@
 
 @media screen and (max-width:920px) {
     .music-overview-header_music-overview-header__JJdxX .music-overview-header_music-overview-header-wrapper__irYj6 .music-overview-header_content__kcrmX .music-overview-header_content-left__MGFdk {
-        padding: 40px 0;
+        position: relative;
+		padding: 40px 0;
         width: 100%
     }
 }
 
 @media screen and (max-width:920px) {
     .music-overview-header_music-overview-header__JJdxX .music-overview-header_music-overview-header-wrapper__irYj6 .music-overview-header_content__kcrmX .music-overview-header_content-left__MGFdk {
-        order: 2
+        position: relative;
+		order: 2
     }
 }
 
@@ -2835,7 +2837,7 @@
     color: var(--ml-100);
     background-color: var(--ml-800);
     margin-left: 2px;
-    padding: 4px 4px 2px;
+    padding: 4px 4px 4px;
     text-transform: uppercase
 }
 
@@ -2966,10 +2968,11 @@
 }
 
 .release-spec_release-spec__EVEPf.release-spec_music__qXMAf .release-spec_release-spec-first__w8h9b {
+	border-radius: 1px;
     color: var(--ml-100);
     background-color: var(--ml-800);
     margin-left: 2px;
-    padding: 4px 4px 2px;
+    padding: 4px 4px 4px;
     text-transform: uppercase
 }
 
@@ -2978,7 +2981,7 @@
     color: var(--ml-100);
     background-color: var(--ml-800);
     margin-left: 2px;
-    padding: 4px 4px 2px;
+    padding: 4px 4px 4px;
     text-transform: uppercase
 }
 
@@ -2990,13 +2993,15 @@
 
 @media screen and (max-width:920px) {
     .music-overview-header_music-overview-header__JJdxX .music-overview-header_music-overview-header-wrapper__irYj6 .music-overview-header_content__kcrmX .music-overview-header_content-right__6bUm7 {
-        order: 1
+        position: relative;
+		order: 1
     }
 }
 
 @media screen and (max-width:768px) {
     .music-overview-header_music-overview-header__JJdxX .music-overview-header_music-overview-header-wrapper__irYj6 .music-overview-header_content__kcrmX .music-overview-header_content-right__6bUm7 {
-        width: 100%
+        position: relative;
+		width: 100%
     }
 }
 
@@ -3038,7 +3043,7 @@
     display: flex;
     align-items: center;
     left: -100px;
-    z-index: 2;
+    z-index: 10;
     white-space: nowrap
 }
 
@@ -3234,7 +3239,8 @@
 
 @media screen and (max-width:920px) {
     .music-overview-header_music-overview-header__JJdxX .music-overview-header_music-overview-header-wrapper__irYj6 .music-overview-header_content__kcrmX .music-overview-header_content-left__MGFdk {
-        order: 2
+        position: relative;
+		order: 2
     }
 }
 
@@ -3260,7 +3266,8 @@
 }
 
 .music-overview-header_music-overview-header__JJdxX .music-overview-header_music-overview-header-wrapper__irYj6 .music-overview-header_content__kcrmX .music-overview-header_content-left__MGFdk .music-overview-header_artists__Nu3Hh:before {
-    content: "";
+    position: relative;
+	content: "";
     display: inline-block;
     margin: 0 12px 0 0;
     width: 24px;
@@ -3276,7 +3283,8 @@
 
 @media screen and (max-width:920px) {
     .music-overview-header_music-overview-header__JJdxX .music-overview-header_music-overview-header-wrapper__irYj6 .music-overview-header_content__kcrmX .music-overview-header_content-right__6bUm7 {
-        order: 1
+        position: relative;
+		order: 1
     }
 }
 
@@ -3690,28 +3698,10 @@ img {
 
 
 .title-layer2-100 {
-    font: normal 16px/24px 'mona-sansextrabold_wide', sans-serif;
     color: var(--ml-900);
     text-transform: uppercase
 }
 
-@media screen and (max-width:768px) {
-    .title-layer2-100 {
-        font: normal 16px/20px 'mona-sansextrabold_wide', sans-serif
-    }
-}
-
-@media screen and (max-width:414px) {
-    .title-layer2-100 {
-        font: normal 16px/20px 'mona-sansextrabold_wide', sans-serif
-    }
-}
-
-@media screen and (max-width:823px)and (max-height:411px) {
-    .title-layer2-100 {
-        font: normal 16px/20px 'mona-sansextrabold_wide', sans-serif
-    }
-}
 
 .title-layer2-200 {
     font: normal 20px/28px 'mona-sansextrabold_wide', sans-serif;

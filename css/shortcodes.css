@@ -896,6 +896,7 @@
 		text-align: center;
 		transform-origin: 100% 0%;
 		padding: 0 40px;
+		text-transform: uppercase;
 	}
 	
 	.button-border span::before {
@@ -905,6 +906,7 @@
 		left: 0;
 		content: attr(data-hover);
 		text-align: center;
+		text-transform: uppercase;
 	}
 	
 	.clapat-button:hover .button-border span {
