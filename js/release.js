@@ -1,5 +1,25 @@
 const portfolioData = [
    {
+      title: "Move Move",
+      data: "10/17/2024",
+      year: "2024",
+      artist: "Swendl",
+      link: "https://soundcloud.com/swendl/move-move",
+      imageSrc: "https://i1.sndcdn.com/artworks-d0VbI308LhDRWaqf-3MpFDQ-t500x500.jpg",
+      imageSrc_Background_Wide: "https://mir-s3-cdn-cf.behance.net/project_modules/max_3840/6a3df2175072423.64dab661e6ada.jpg",
+      imageAlt: "Swendl - Move Move"
+   },
+   {
+      title: "Breath",
+      data: "10/12/2024",
+      year: "2024",
+      artist: "Swendl (MOONBOY Contest)",
+      link: "https://soundcloud.com/swendl/swendl-breath-moonboy-contest",
+      imageSrc: "https://i1.sndcdn.com/artworks-qoD2ySkpZyWxyU9o-mfjWyQ-t500x500.jpg",
+      imageSrc_Background_Wide: "",
+      imageAlt: "Swendl - Breath (MOONBOY Contest)"
+   },
+   {
       title: "Fortnight",
       data: "09/18/2024",
       year: "2024",
@@ -7,17 +27,8 @@ const portfolioData = [
       link: "https://go.swendl.com/vZJn",
       imageSrc: "/images/music-cover/taylor-swift-fortnight-swendl-remix.webp",
       imageSrc_Background_Wide: "/images/bg/taylor-swift-fortnight-swendl-remix-bg.webp",
-      imageAlt: "Taylor Swift - Fortnight (Swendl Remix)"
-   },
-   {
-      title: "What Love Is",
-      data: "08/16/2024",
-      year: "2024",
-      artist: "Zimmer90 (Swendl Remix)",
-      link: "https://go.swendl.com/vZJm",
-      imageSrc: "/images/music-cover/zimmer90-what-love-is-swendl-remix.webp",
-      imageSrc_Background_Wide: "",
-      imageAlt: "Zimmer90 - What Love Is (Swendl Deep House Remix)"
+      imageAlt: "Taylor Swift - Fortnight (Swendl Remix)",
+      featured: true
    },
    {
       title: "Fade Till Sunrise",
