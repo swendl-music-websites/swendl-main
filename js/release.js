@@ -4,7 +4,7 @@ const portfolioData = [
       data: "10/17/2024",
       year: "2024",
       artist: "Swendl",
-      link: "https://soundcloud.com/swendl/move-move",
+      link: "https://artists.landr.com/055905367314",
       imageSrc: "https://i1.sndcdn.com/artworks-d0VbI308LhDRWaqf-3MpFDQ-t500x500.jpg",
       imageSrc_Background_Wide: "https://mir-s3-cdn-cf.behance.net/project_modules/max_3840/6a3df2175072423.64dab661e6ada.jpg",
       imageAlt: "Swendl - Move Move"
